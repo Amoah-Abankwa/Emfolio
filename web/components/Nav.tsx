@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 
-const WHATSAPP_LINK: string = 'https://wa.me/233000000000'; // TODO: replace with your real WhatsApp number
+const WHATSAPP_LINK: string = 'https://wa.me/233547846425'; // TODO: replace with your real WhatsApp number
 
 interface NavLink {
   href: string;
