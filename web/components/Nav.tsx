@@ -26,12 +26,12 @@ export default function Nav() {
       <header className="sticky top-0 z-50 border-b border-black/10 bg-paper/90 backdrop-blur">
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-7 py-4">
           <Link href="#top" className="flex items-center gap-2 font-mono text-sm font-medium">
-            <span className="inline-block h-2 w-2 rounded-sm border border-ink bg-[#F5C518]" />
+            <span className="inline-block h-2 w-2 rounded-sm border border-[#000000] bg-[#F5C518]" />
             EMMANUEL.DEV
           </Link>
 
           <div
-            className={`fixed left-0 right-0 top-16 z-40 flex flex-col gap-0 border-b border-black/10 bg-paper px-7 pb-4 pt-2 transition-transform duration-200 md:static md:flex-row md:items-center md:gap-8 md:border-none md:bg-transparent md:p-0 md:transition-none ${
+            className={`fixed left-0 right-60 top-16 z-40 flex flex-col gap-0 border-b border-black/10 bg-[#FFFFFF] px-7 pb-4 pt-2 transition-transform duration-200 md:static md:flex-row md:items-center md:gap-8 md:border-none md:bg-transparent md:p-0 md:transition-none ${
               open ? 'translate-y-0' : '-translate-y-[140%] md:translate-y-0'
             }`}
           >
@@ -40,7 +40,7 @@ export default function Nav() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setOpen(false)}
-                className="border-b border-black/10 py-3 text-sm font-medium opacity-75 transition hover:opacity-100 md:border-none md:py-0"
+                className="border-b  border-black/10 py-3 text-sm font-medium opacity-75 transition hover:opacity-100 md:border-none md:py-0"
               >
                 {link.label}
               </Link>
@@ -61,9 +61,9 @@ export default function Nav() {
             onClick={() => setOpen((prev) => !prev)}
             className="flex flex-col gap-[5px] p-1.5 md:hidden"
           >
-            <span className="block h-[2px] w-[22px] bg-ink" />
-            <span className="block h-[2px] w-[22px] bg-ink" />
-            <span className="block h-[2px] w-[22px] bg-ink" />
+            <span className="block h-[2px] w-[22px] bg-[#000000]" />
+            <span className="block h-[2px] w-[22px] bg-[#000000]" />
+            <span className="block h-[2px] w-[22px] bg-[#000000]" />
           </button>
         </nav>
       </header>
