@@ -47,11 +47,6 @@ export default function GitHubActivity() {
               className="min-w-[640px]"
             />
           </div>
-
-          <p className="mt-4 font-mono text-[11px] text-gray">
-            Contribution graph updates automatically from GitHub — nothing to maintain here once
-            your username is set.
-          </p>
         </div>
       </div>
     </section>
