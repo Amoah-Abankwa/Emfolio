@@ -26,8 +26,7 @@ export default function Nav() {
       <header className="sticky top-0 z-50 border-b border-black/10 bg-paper/90 backdrop-blur">
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-7 py-4">
           <Link href="#top" className="flex items-center gap-2 font-mono text-sm font-medium">
-            <span className="inline-block h-2 w-2 rounded-sm border border-[#000000] bg-[#F5C518]" />
-            EMMANUEL.DEV
+            AMOAH-ABANKWA
           </Link>
 
           <div
