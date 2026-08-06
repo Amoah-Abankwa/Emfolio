@@ -14,9 +14,9 @@ export default function Nav() {
 
   const links: NavLink[] = [
     { href: '#about', label: 'About' },
-    { href: '#stack', label: 'Stack' },
-    { href: '#ventures', label: 'Ventures' },
-    { href: '#journey', label: 'Journey' },
+    { href: '#case-studies', label: 'Work' },
+    { href: '#activity', label: 'Activity' },
+    { href: '#collaborators', label: 'Community' },
     { href: '#contact', label: 'Contact' },
   ];
 
