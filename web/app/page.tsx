@@ -7,6 +7,9 @@ import Journey from '@/components/Journey';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 import WhatsAppFloat from '@/components/WhatsAppFloat';
+import CaseStudies from '@/components/CaseStudies';
+import GitHubActivity from '@/components/GitHubActivity';
+import Collaborators from '@/components/Collaborators';
 
 export default function Home() {
   return (
@@ -15,7 +18,9 @@ export default function Home() {
       <Hero />
       <About />
       <Stack />
-      <Ventures />
+      <CaseStudies />
+      <GitHubActivity />
+      <Collaborators />
       <Journey />
       <ContactSection />
       <Footer />

@@ -7,8 +7,8 @@ interface Role {
 
 const roles: Role[] = [
   { role: 'CEO', tag: 'YENMOTION' },
-  { role: 'Co-founder', tag: 'SLICON' },
-  { role: 'Builder', tag: 'EMFOLIO' },
+  { role: 'Co-founder', tag: 'SUKUU LINK' },
+  { role: 'Builder', tag: 'HEY GIRL' },
   { role: 'Freelance Developer', tag: 'INDEPENDENT' },
   { role: 'Volunteer', tag: 'TECH & HUMANITARIAN' },
 ];

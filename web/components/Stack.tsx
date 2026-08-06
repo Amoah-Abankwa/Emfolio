@@ -22,7 +22,7 @@ export default function Stack() {
           {tools.map((tool) => (
             <span
               key={tool}
-              className="rounded-sm border border-black/10 bg-paper px-4 py-2.5 font-mono text-[13.5px] transition hover:bg-ink hover:text-yellow"
+              className="rounded-sm border border-black/10 bg-[#f0f0f0] px-4 py-2.5 font-mono text-[13.5px] transition hover:bg-ink hover:text-yellow"
             >
               {tool}
             </span>
