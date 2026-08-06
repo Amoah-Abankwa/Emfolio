@@ -46,6 +46,7 @@ export default function ContactForm() {
           value={form.name}
           onChange={handleChange}
           className="w-full rounded-sm border border-white/15 bg-white/5 px-4 py-3 text-sm text-paper outline-none focus:border-yellow"
+          style={{ fontSize: '16px' }} // Prevents iOS zoom
         />
       </div>
       <div>
@@ -57,6 +58,7 @@ export default function ContactForm() {
           value={form.email}
           onChange={handleChange}
           className="w-full rounded-sm border border-white/15 bg-white/5 px-4 py-3 text-sm text-paper outline-none focus:border-yellow"
+          style={{ fontSize: '16px' }} // Prevents iOS zoom
         />
       </div>
       <div>
@@ -68,6 +70,7 @@ export default function ContactForm() {
           value={form.message}
           onChange={handleChange}
           className="w-full rounded-sm border border-white/15 bg-white/5 px-4 py-3 text-sm text-paper outline-none focus:border-yellow"
+          style={{ fontSize: '16px' }} // Prevents iOS zoom
         />
       </div>
 
